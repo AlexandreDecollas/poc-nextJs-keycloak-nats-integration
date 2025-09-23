@@ -1,4 +1,4 @@
-import NextAuth, {NextAuthOptions} from "next-auth"
+import NextAuth from "next-auth"
 import KeycloakProvider from 'next-auth/providers/keycloak';
 
 // You'll need to import and pass this
@@ -13,7 +13,7 @@ export const config = {
     })
 
   ], // rest of your config
-} satisfies NextAuthOptions
+}
 
 
 
